@@ -1,2 +1,0 @@
-# stf
-stf forex hub
