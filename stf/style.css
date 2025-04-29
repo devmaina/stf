@@ -1,0 +1,281 @@
+ /* Basic Reset and Font */
+body {
+    font-family: "nunito";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Header Styles */
+.header-style {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo {
+    height: 48px;
+    margin-right: 1rem;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.nav-style {
+    margin-top: 0.5rem;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #e9ecef;
+    padding: 3rem 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Courses Section */
+.courses-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.course-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.course-description {
+    color: #495057;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-text {
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Quotes Section */
+.quotes-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.quote-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.quote-text {
+    color: #495057;
+    margin-bottom: 0.5rem;
+}
+
+.quote-author {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Signup Section */
+.signup-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.signup-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    max-width: 700px;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.primary-button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+.footer-style {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.footer-link {
+    color: #adb5bd;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Uniform Margins and Padding */
+section {
+    padding: 40px 0; /* Increased padding for better spacing */
+    margin-bottom: 30px; /* Uniform bottom margin for sections */
+}
+
+/* Responsive adjustments (optional, but good practice) */
+@media (max-width: 768px) {
+    .flex-around {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card, .testimonial-card, .quote-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+
+    .hero-image {
+        margin-top: 1.5rem;
+    }
+}
